@@ -1,0 +1,7 @@
+library(readr)
+database <- read_csv("database.csv")
+View(database)
+hist(database$Latitude, main = "Frequency of Earthquake by Latitude", xlab = "Latitude", ylab = "Frequency")
+hist(database$Longitude, main = "Frequency of Earthquake by Longitude", xlab = "Longitude", ylab = "Frequency")
+hist(database$Magnitude, main = "Frequency of Earthquake by Magnitude", xlab = "Magnitude", ylab = "Frequency")
+hist(database$Depth, main = "Frequency of Earthquake by Depth", xlab = "Depth", ylab = "Frequency")
