@@ -4,3 +4,6 @@ The interested of this project is the Global Earthquake Database because earthqu
 Qualitative Data Column: Location (Country and/or city where the earthquake occurs.)
 
 Quantitative Data Column: Magnitude (Intensive of the earthquake), and Depth (depth in km at which the earthquake occurs.)
+
+
+![alt text](http://url/to/img.png)
