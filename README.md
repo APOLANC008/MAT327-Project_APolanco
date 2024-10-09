@@ -6,4 +6,4 @@ Qualitative Data Column: Location (Country and/or city where the earthquake occu
 Quantitative Data Column: Magnitude (Intensive of the earthquake), and Depth (depth in km at which the earthquake occurs.)
 
 
-![alt text](http://url/to/img.png)
+![alt text](MagnitudeHist.png)
