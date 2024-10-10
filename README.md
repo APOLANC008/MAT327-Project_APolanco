@@ -12,3 +12,5 @@ From the graph “Frequency of Earthquakes by Magnitude”, the distribution of 
 This decline in the number of higher magnitude earthquakes suggests that stronger earthquakes are relatively rare compared to lower magnitude ones. This can lead us to conclude that the smaller earthquakes occur more frequently, while the more destructive with higher magnitude earthquakes are less common.
 
 ![alt text](LatitudeHist.png)
+
+![alt text](DepthHist.png)
