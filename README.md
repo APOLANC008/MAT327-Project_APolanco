@@ -1,4 +1,4 @@
-# Earthquake Database Analysis 
+# Earthquake Database Analysis
   
 The interested of this project is the Global Earthquake Database because earthquakes are unexpected but important natural events. Studying where, how often, and how strong they are can give useful information about earthquake patterns. This can also help with understanding risks and being ready for disasters, which makes it a valuable topic to explore. I found the dataset on the website KAGGLE https://www.kaggle.com/datasets/usgs/earthquake-database. The dataset is owned by the US Geological Survey, an organization that studies and monitors seismic activities. The data is from 1965 to 2016. On this dataset there is information about the date, time, location, and magnitude of each of the occurring earthquakes.
 
@@ -37,16 +37,18 @@ In analysis of the Earthquake Database, we will look at the statistical measures
 
 ### Statistical Measures of the Magnitude Column
 
-- Mean = 5.88,
-* Median = 5.7,
-+ Variance = 0.1789,
-- Standard Deviation = 0.4231
+- **Mean** = 5.88
+* **Median** = 5.7
++ **Variance** = 0.1789
+- **Standard Deviation** = 0.4231
+
+From the obtained calculations we can observed that the mean ***5.88*** and the median ***5.7*** of the magnitude values are close to each other. This suggest that the distribution of the magnitudes is symmetrical with only slight skewness. However, as it is illustrated in the histogram graph "Frequency of Earthquake by Magnitude" the distribution is right-skewed.
 
 ### Statistical Measures of the Depth Column
 
-- Mean = 70.77,
-* Trimmed Mean = 39.113,
-+ Median = 33,
-- Variance = 15043.49,
-* Standard Deviation = 122.65
+- **Mean** = 70.77
+* **Trimmed Mean** = 39.113
++ **Median** = 33
+- **Variance** = 15043.49
+* **Standard Deviation** = 122.65
 
