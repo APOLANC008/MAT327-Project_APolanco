@@ -74,7 +74,7 @@ The scatterplot above illustrates the relationship between the earthquake magnit
 The lack of this strong correlation implies that while the magnitude and depth may have some relationship, they do not have a high influence within each other in a linear manner.
 
 ### Latitude vs Longitude
-![alt text](LatitudeVsLongitude.Splot.png)
+![alt text](LatitudeVsLongitude.Splot.png)<br>
 The scatterplot above illustrates the relationship between the earthquake latitude and longitude. The points on the graph appear to be scattered across the plot, without a clear pattern, which leads to the conclusion that there is a low correlation between the latitude and the longitude of the collected data from past earthquakes. 
 
 In addition, the calculated correlation ***0.24*** indicates a weak positive correlation, which implies that these two variables are weak linear associated in the collected dataset. 
