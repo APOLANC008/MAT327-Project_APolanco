@@ -66,12 +66,21 @@ From the obtained calculations we can observed that the mean ***70.77***, and th
 The variance ***15043.49*** and the standard deviation ***122.65*** indicate a high degree of variability, which suggest that the depth values are spread widely from the mean. 
 
 ## Scatterplot and Correlation
+
+### Magnitude vs Depth
 ![alt text](MagnitudeVsDepth.Splot.png)
-The scatterplot above illustrates the relationship between the earthquake magnitude and depth. The calculatated correlation ***0.0235*** indicates a weak positive correlation between the magnitude and depth. With this observations, it can be concluded that there is almost no linear association with these two variables. 
+The scatterplot above illustrates the relationship between the earthquake magnitude and depth. The calculated  correlation ***0.0235*** indicates a weak positive correlation between the magnitude and depth. With these observations, it can be concluded that there is almost no linear association with these two variables. 
 
 The lack of this strong correlation implies that while the magnitude and depth may have some relationship, they do not have a high influence within each other in a linear manner.
 
-
+### Latitude vs Longitude
 ![alt text](LatitudeVsLongitude.Splot.png)
+The scatterplot above illustrates the relationship between the earthquake latitude and longitude. The points on the graph appear to be scattered across the plot, without a clear pattern, which leads to the conclusion that there is a low correlation between the latitude and the longitude of the collected data from past earthquakes. 
 
+In addition, the calculated correlation ***0.24*** indicates a weak positive correlation, which implies that these two variables are weak linear associated in the collected dataset. 
+
+### Latitude vs Depth
 ![alt text](LatitudeVsDepth.Splot.png)
+The scatterplot above illustrates the relationship between the earthquake latitude and depth. The point on the graph appear to be distributed across the complete graph, indicating different depth levels with not a clear pattern. 
+
+The calculated correlation ***-0.08*** indicates a weak negative correlation between the depth and the latitude, which suggest that these two variables may not have a linear association, and therefore, it concludes that the latitude and the depth of the earthquakes are not significantly related  to one another in the study dataset.
