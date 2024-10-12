@@ -29,5 +29,3 @@ mean(database$Depth, trim = 0.1)
 median(database$Depth)
 var(database$Depth)
 sd(database$Depth)
-
-
