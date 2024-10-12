@@ -29,11 +29,11 @@ From the graph “Frequency of Earthquake by Depth” it can be notice that the 
 ### Earthquake Longitude
 ![alt text](LongitudeHist.png)
 
-From the graph "Frecuency of Earthquakes by Longitude", the distribution of earthquake frecuencies by longitude have two major peaks, therefore it has a bimodal shape. This indicates that earthquakes are more frequent around two separate longitude ranges. The x-axis represents longitude values, ranging from approximately -180 to 180 degrees. It can be observed that one peak is centered between -180 and -150 degrees longitude, while the other is centered around 150 and 180 degrees longitude. The y-axis indicates the frequency of earthquakes observed at each longitude interval. The data graph shows that the distribution is not assymetrical, meaning there is more frequency activity at the ends than near the center. 
+From the graph "Frequency of Earthquakes by Longitude", the distribution of earthquake frequencies by longitude have two major peaks, therefore it has a bimodal shape. This indicates that earthquakes are more frequent around two separate longitude ranges. The x-axis represents longitude values, ranging from approximately -180 to 180 degrees. It can be observed that one peak is centered between -180 and -150 degrees longitude, while the other is centered around 150 and 180 degrees longitude. The y-axis indicates the frequency of earthquakes observed at each longitude interval. The data graph shows that the distribution is not asymmetrical, meaning there is more frequency activity at the ends than near the center. 
 
 ## Outliers Presented on Earthquake Database
 
-To the analysis of the Earthquake database, the data choose to study have being the magnitude, longitude, latitude, and depth of recorded earthquake. However, from the analysis of the presented histograms, it have been concluded that the recorded data for the Depth of the earthquake present a high peak at the left of the graph, which indicates the presence of some outliers that might result in the alterating of the statical measures of the center. Therefore, when performing the require measures calculations, it will also be calculated the **Trimmed Mean** to present the comparision on how the outliers have been altering the overall central tendency for the Depth data.
+To the analysis of the Earthquake database, the data choose to study have being the magnitude, longitude, latitude, and depth of recorded earthquake. However, from the analysis of the presented histograms, it have been concluded that the recorded data for the Depth of the earthquake present a high peak at the left of the graph, which indicates the presence of some outliers that might result in the alteration of the statical measures of the center. Therefore, when performing the require measures calculations, it will also be calculated the **Trimmed Mean** to present the comparison on how the outliers have been altering the overall central tendency for the Depth data.
 ![alt text](DepthHist_Trim.png)
 
 On the above image "The Frequency of Earthquake by Depth with Trimmed Mean", the distribution of earthquake depths is displayed. Also, it can be observed a vertical red dashed line which represent the data that will be excluded from the analysis, in order to reduce the impact of this extreme values on the mean.
@@ -61,6 +61,15 @@ The variance ***0.1789***, and the standard deviation ***0.4231*** are very low,
 - **Variance** = 15043.49
 * **Standard Deviation** = 122.65
 
-From the obtained calculations we can observed that the mean ***70.77***, and the median ***33*** of the depth values, which suggest a right skewed distribution. Since the obtained mean is farther apart from the median, the trimmed mean was calculated to remove the 10% of the extreme data from the end. The calculated trimmed mean ***39.113*** shows a closer value to the median, which indicates that the outliers on the end were highly influenty on the mean. Therefore, removing the ends, give a better representation of the usual depth of the earthquakes.
+From the obtained calculations we can observed that the mean ***70.77***, and the median ***33*** of the depth values, which suggest a right skewed distribution. Since the obtained mean is farther apart from the median, the trimmed mean was calculated to remove the 10% of the extreme data from the end. The calculated trimmed mean ***39.113*** shows a closer value to the median, which indicates that the outliers on the end were highly influent on the mean. Therefore, removing the ends, give a better representation of the usual depth of the earthquakes.
 
 The variance ***15043.49*** and the standard deviation ***122.65*** indicate a high degree of variability, which suggest that the depth values are spread widely from the mean. 
+
+## Scatterplot and Correlation
+![alt text](MagnitudeVsDepth.png)
+The scatterplot above illustrates the relationship between the earthquake magnitude and depth. The calculatated correlation ***0.0235*** indicates a weak positive correlation between the magnitude and depth. With this observations, it can be concluded that there is almost no linear association with these two variables. 
+
+The lack of this strong correlation implies that while the magnitude and depth may have some relationship, they do not have a high influence within each other in a linear manner.
+
+
+
