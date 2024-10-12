@@ -41,3 +41,35 @@ cor(database$Depth, database$Latitude)
 
 plot(database$Latitude, database$Longitude, xlab = "Latitude", ylab = "Longitude", main = "Analysis of Seismic Trends: Latitude vs Longitude")
 cor(database$Latitude, database$Longitude)
+
+# Milestone 7
+
+# Move Confidence Interval of Magnitude Column
+mag_data = c(database$Magnitude)
+xbar = mean(mag_data)
+xbar
+s = sd(mag_data)
+s
+n = length(database$Magnitude)
+n
+t = qt(0.05/2, (n - 1))
+t
+t = -qt(0.05/2, (n - 1))
+t
+xbar - t*s/sqrt(n)
+xbar + t*s/sqrt(n)
+
+# Move Confidence Interval of Depth Column
+dep_data = c(database$Depth)
+xbar = mean(dep_data, trim = 0.1)
+xbar
+s = sd(dep_data)
+s
+n = length(database$Depth)
+n
+t = qt(0.05/2, (n - 1))
+t
+t = -qt(0.05/2, (n - 1))
+t
+xbar - t*s/sqrt(n)
+xbar + t*s/sqrt(n)
