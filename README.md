@@ -31,6 +31,13 @@ From the graph “Frequency of Earthquake by Depth” it can be notice that the 
 
 From the graph "Frecuency of Earthquakes by Longitude", the distribution of earthquake frecuencies by longitude have two major peaks, therefore it has a bimodal shape. This indicates that earthquakes are more frequent around two separate longitude ranges. The x-axis represents longitude values, ranging from approximately -180 to 180 degrees. It can be observed that one peak is centered between -180 and -150 degrees longitude, while the other is centered around 150 and 180 degrees longitude. The y-axis indicates the frequency of earthquakes observed at each longitude interval. The data graph shows that the distribution is not assymetrical, meaning there is more frequency activity at the ends than near the center. 
 
+## Outliers Presented on Earthquake Database
+
+To the analysis of the Earthquake database, the data choose to study have being the magnitude, longitude, latitude, and depth of recorded earthquake. However, from the analysis of the presented histograms, it have been concluded that the recorded data for the Depth of the earthquake present a high peak at the left of the graph, which indicates the presence of some outliers that might result in the alterating of the statical measures of the center. Therefore, when performing the require measures calculations, it will also be calculated the **Trimmed Mean** to present the comparision on how the outliers have been altering the overall central tendency for the Depth data.
+![alt text](DepthHist_Trim.png)
+
+On the above image "The Frequency of Earthquake by Depth with Trimmed Mean", the distribution of earthquake depths is displayed. Also, it can be observed a vertical red dashed line which represent the data that will be excluded from the analysis, in order to reduce the impact of this extreme values on the mean.
+
 ## Measure of Center and Spread of Earthquake Database
 
 In analysis of the Earthquake Database, we will look at the statistical measures such as the mean, trimmed mean, median, variance, and standard deviation, on the columns of the Earthquake Database like Magnitude and Depth. 
