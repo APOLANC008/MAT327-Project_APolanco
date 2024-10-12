@@ -84,3 +84,31 @@ In addition, the calculated correlation ***0.24*** indicates a weak positive cor
 The scatterplot above illustrates the relationship between the earthquake latitude and depth. The point on the graph appear to be distributed across the complete graph, indicating different depth levels with not a clear pattern. 
 
 The calculated correlation ***-0.08*** indicates a weak negative correlation between the depth and the latitude, which suggest that these two variables may not have a linear association, and therefore, it concludes that the latitude and the depth of the earthquakes are not significantly related  to one another in the study dataset.
+
+## The Move Confidence Intervals
+
+### 95% Confidence Interval of the Earthquake Magnitude Data
+
+The 95% confidence interval for the mean earthquake magnitude is calculated as the follows:
+- **Mean (x̄)** = 5.8825
+- **Standard Deviation (s)** = 0.4231
+- **Sample Size (n)** = 23412
+- **t-value** =
+  * **(+) t-value** = 1.96
+  * **(-) t-value** = -1.96
+#### Calculated Confidence Interval:
+- **Lower-bound** = 5.8771
+- **Upper-bound** = 5.8879
+
+### 95% Confidence Interval of the Earthquake Depth Data
+
+The 95% confidence interval for the mean earthquake depth is calculated as the follows:
+- **Trimmed Mean (x̄)** = 39.11
+- **Standard Deviation (s)** = 122.65
+- **Sample Size (n)** = 23412
+- **t-value** =
+  * **(+) t-value** = 1.96
+  * **(-) t-value** = -1.96
+#### Calculated Confidence Interval:
+- **Lower-bound** = 37.54
+- **Upper-bound** = 40.68
