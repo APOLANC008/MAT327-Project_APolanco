@@ -44,6 +44,8 @@ In analysis of the Earthquake Database, we will look at the statistical measures
 
 From the obtained calculations we can observed that the mean ***5.88*** and the median ***5.7*** of the magnitude values are close to each other. This suggest that the distribution of the magnitudes is symmetrical with only slight skewness. However, as it is illustrated in the histogram graph "Frequency of Earthquake by Magnitude" the distribution is right-skewed.
 
+The variance ***0.1789***, and the standard deviation ***0.4231*** are very low, which suggest that the values don't vary widely from the mean. 
+
 ### Statistical Measures of the Depth Column
 
 - **Mean** = 70.77
@@ -52,3 +54,6 @@ From the obtained calculations we can observed that the mean ***5.88*** and the 
 - **Variance** = 15043.49
 * **Standard Deviation** = 122.65
 
+From the obtained calculations we can observed that the mean ***70.77***, and the median ***33*** of the depth values, which suggest a right skewed distribution. Since the obtained mean is farther apart from the median, the trimmed mean was calculated to remove the 10% of the extreme data from the end. The calculated trimmed mean ***39.113*** shows a closer value to the median, which indicates that the outliers on the end were highly influenty on the mean. Therefore, removing the ends, give a better representation of the usual depth of the earthquakes.
+
+The variance ***15043.49*** and the standard deviation ***122.65*** indicate a high degree of variability, which suggest that the depth values are spread widely from the mean. 
