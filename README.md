@@ -72,4 +72,6 @@ The scatterplot above illustrates the relationship between the earthquake magnit
 The lack of this strong correlation implies that while the magnitude and depth may have some relationship, they do not have a high influence within each other in a linear manner.
 
 
+![alt text](LatitudeVsLongitude.Splot.png)
 
+![alt text](LatitudeVsDepth.Splot.png)
