@@ -35,3 +35,9 @@ sd(database$Depth)
 
 plot(database$Magnitude, database$Depth, xlab = "Magnitude", ylab = "Depth", main = "Analysis of Seismic Trends: Magnitude vs Depth")
 cor(database$Magnitude, database$Depth)
+
+plot(database$Depth, database$Latitudexlab, xlab = "Depth", ylab = "Latitude", main = "Analysis of Seismic Trends: Depth vs Latitude")
+cor(database$Depth, database$Latitude)
+
+plot(database$Latitude, database$Longitude, xlab = "Latitude", ylab = "Longitude", main = "Analysis of Seismic Trends: Latitude vs Longitude")
+cor(database$Latitude, database$Longitude)
