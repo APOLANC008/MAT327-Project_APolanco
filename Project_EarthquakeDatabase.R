@@ -10,6 +10,7 @@ hist(database$Magnitude, main = "Frequency of Earthquake by Magnitude", xlab = "
 hist(database$Depth, main = "Frequency of Earthquake by Depth", xlab = "Depth", ylab = "Frequency")
 
 # Milestone 4
+
 mean(database$Depth, trim = 0.1)
 hist(database$Depth, main = "Frequency of Earthquake by Depth with Trimmed Mean", xlab = "Depth", ylab = "Frequency")
 abline(v = trimmed_mean, col = "red", lwd = 2, lty = 2)
@@ -29,3 +30,8 @@ mean(database$Depth, trim = 0.1)
 median(database$Depth)
 var(database$Depth)
 sd(database$Depth)
+
+# Milestone 6
+
+plot(database$Magnitude, database$Depth, xlab = "Magnitude", ylab = "Depth", main = "Analysis of Seismic Trends: Magnitude vs Depth")
+cor(database$Magnitude, database$Depth)
