@@ -68,7 +68,7 @@ The variance ***15043.49*** and the standard deviation ***122.65*** indicate a h
 ## Scatterplot and Correlation
 
 ### Magnitude vs Depth
-![alt text](MagnitudeVsDepth.Splot.png)
+![alt text](MagnitudeVsDepth.Splot.png)<br>
 The scatterplot above illustrates the relationship between the earthquake magnitude and depth. The calculated  correlation ***0.0235*** indicates a weak positive correlation between the magnitude and depth. With these observations, it can be concluded that there is almost no linear association with these two variables. 
 
 The lack of this strong correlation implies that while the magnitude and depth may have some relationship, they do not have a high influence within each other in a linear manner.
