@@ -9,6 +9,11 @@ hist(database$Longitude, main = "Frequency of Earthquake by Longitude", xlab = "
 hist(database$Magnitude, main = "Frequency of Earthquake by Magnitude", xlab = "Magnitude", ylab = "Frequency")
 hist(database$Depth, main = "Frequency of Earthquake by Depth", xlab = "Depth", ylab = "Frequency")
 
+# Milestone 4
+mean(database$Depth, trim = 0.1)
+hist(database$Depth, main = "Frequency of Earthquake by Depth with Trimmed Mean", xlab = "Depth", ylab = "Frequency")
+abline(v = trimmed_mean, col = "red", lwd = 2, lty = 2)
+
 # Milestone 5
 
 # Calculations for the MAGNITUDE
