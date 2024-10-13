@@ -54,10 +54,10 @@ In analysis of the Earthquake Database, we will look at the statistical measures
 - **Median** = 5.7
 - **Variance** = 0.1789
 - **Standard Deviation** = 0.4231
+<p align = "justify">
+From the obtained calculations we can observed that the mean 5.88, and the median 5.7 of the magnitude values are close to each other. This suggest that the distribution of the magnitudes is symmetrical with only slight skewness. However, as it is illustrated in the histogram graph "Frequency of Earthquake by Magnitude" the distribution is right-skewed.
 
-From the obtained calculations we can observed that the mean ***5.88*** and the median ***5.7*** of the magnitude values are close to each other. This suggest that the distribution of the magnitudes is symmetrical with only slight skewness. However, as it is illustrated in the histogram graph "Frequency of Earthquake by Magnitude" the distribution is right-skewed.
-
-The variance ***0.1789***, and the standard deviation ***0.4231*** are very low, which suggest that the values don't vary widely from the mean. 
+The variance 0.1789, and the standard deviation 0.4231 are very low, which suggest that the values don't vary widely from the mean. 
 
 ### Statistical Measures of the Depth Column
 
@@ -66,30 +66,33 @@ The variance ***0.1789***, and the standard deviation ***0.4231*** are very low,
 - **Median** = 33
 - **Variance** = 15043.49
 - **Standard Deviation** = 122.65
+<p align = "justify">
+From the obtained calculations we can observed that the mean 70.77, and the median 33 of the depth values, which suggest a right skewed distribution. Since the obtained mean is farther apart from the median, the trimmed mean was calculated to remove the 10% of the extreme data from the end. The calculated trimmed mean 39.113 shows a closer value to the median, which indicates that the outliers on the end were highly influent on the mean. Therefore, removing the ends, give a better representation of the usual depth of the earthquakes.
 
-From the obtained calculations we can observed that the mean ***70.77***, and the median ***33*** of the depth values, which suggest a right skewed distribution. Since the obtained mean is farther apart from the median, the trimmed mean was calculated to remove the 10% of the extreme data from the end. The calculated trimmed mean ***39.113*** shows a closer value to the median, which indicates that the outliers on the end were highly influent on the mean. Therefore, removing the ends, give a better representation of the usual depth of the earthquakes.
-
-The variance ***15043.49*** and the standard deviation ***122.65*** indicate a high degree of variability, which suggest that the depth values are spread widely from the mean. 
+The variance 15043.49 and the standard deviation 122.65 indicate a high degree of variability, which suggest that the depth values are spread widely from the mean. 
 
 ## Scatterplot and Correlation
 
 ### Magnitude vs Depth
 ![alt text](MagnitudeVsDepth.Splot.png)<br>
-The scatterplot above illustrates the relationship between the earthquake magnitude and depth. The calculated  correlation ***0.0235*** indicates a weak positive correlation between the magnitude and depth. With these observations, it can be concluded that there is almost no linear association with these two variables. 
+<p align = "justify">
+The scatterplot above illustrates the relationship between the earthquake magnitude and depth. The calculated  correlation 0.0235 indicates a weak positive correlation between the magnitude and depth. With these observations, it can be concluded that there is almost no linear association with these two variables. 
 
 The lack of this strong correlation implies that while the magnitude and depth may have some relationship, they do not have a high influence within each other in a linear manner.
 
 ### Latitude vs Longitude
 ![alt text](LatitudeVsLongitude.Splot.png)<br>
+<p align = "justify">
 The scatterplot above illustrates the relationship between the earthquake latitude and longitude. The points on the graph appear to be scattered across the plot, without a clear pattern, which leads to the conclusion that there is a low correlation between the latitude and the longitude of the collected data from past earthquakes. 
 
-In addition, the calculated correlation ***0.24*** indicates a weak positive correlation, which implies that these two variables are weak linear associated in the collected dataset. 
+In addition, the calculated correlation 0.24 indicates a weak positive correlation, which implies that these two variables are weak linear associated in the collected dataset. 
 
 ### Latitude vs Depth
 ![alt text](LatitudeVsDepth.Splot.png)
+<p align = "justify">
 The scatterplot above illustrates the relationship between the earthquake latitude and depth. The point on the graph appear to be distributed across the complete graph, indicating different depth levels with not a clear pattern. 
-
-The calculated correlation ***-0.08*** indicates a weak negative correlation between the depth and the latitude, which suggest that these two variables may not have a linear association, and therefore, it concludes that the latitude and the depth of the earthquakes are not significantly related  to one another in the study dataset.
+<p align = "justify">
+The calculated correlation -0.08 indicates a weak negative correlation between the depth and the latitude, which suggest that these two variables may not have a linear association, and therefore, it concludes that the latitude and the depth of the earthquakes are not significantly related  to one another in the study dataset.
 
 ## The Move Confidence Intervals
 
@@ -105,8 +108,8 @@ The 95% confidence interval for the mean earthquake magnitude is calculated as t
 #### Calculated Confidence Interval:
 - **Lower-bound** = 5.8771
 - **Upper-bound** = 5.8879
-  
-The 95% confidence interval for the mean earthquake is ***[5.87711, 5.8879]***, which indicates we have a high precision in estimating the mean earthquake magnitude. Having the large sample size ***(n = 23412)***, the interval range is relatively small. Therefore, we can be 95% confident that the true mean lies within this range, which suggest that our estimate mean is a representation of the earthquake magnitude in the dataset.
+<p align = "justify">
+The 95% confidence interval for the mean earthquake is [5.87711, 5.8879, which indicates we have a high precision in estimating the mean earthquake magnitude. Having the large sample size (n = 23412), the interval range is relatively small. Therefore, we can be 95% confident that the true mean lies within this range, which suggest that our estimate mean is a representation of the earthquake magnitude in the dataset.
 
 ### 95% Confidence Interval of the Earthquake Depth Data
 
@@ -120,5 +123,5 @@ The 95% confidence interval for the mean earthquake depth is calculated as the f
 #### Calculated Confidence Interval:
 - **Lower-bound** = 37.54
 - **Upper-bound** = 40.68
-
-The 95% confidence interval for the 10% trimmed mean depth is ***[37.54, 40.68]***. This interval is relatively narrow due to the large sample size ***(n = 23412)***, which indicates the precise estimate of the average earthquake depth after the outliers were remove. After removing the extreme values, the confidence interval provides a stable representation of the usual depth across the earthquake collected in the dataset. 
+<p align = "justify">
+The 95% confidence interval for the 10% trimmed mean depth is [37.54, 40.68]. This interval is relatively narrow due to the large sample size (n = 23412), which indicates the precise estimate of the average earthquake depth after the outliers were remove. After removing the extreme values, the confidence interval provides a stable representation of the usual depth across the earthquake collected in the dataset. 
