@@ -73,3 +73,28 @@ t = -qt(0.05/2, (n - 1))
 t
 xbar - t*s/sqrt(n)
 xbar + t*s/sqrt(n)
+
+# Milestone 8
+
+model.lm <- lm(Magnitude ~ Depth, data = database)
+model.lm
+
+plot(database$Magnitude, database$Depth, xlab = "Depth", ylab = "Magnitude", main = "Magnitude vs. Depth")
+abline(model.lm, col = "red")
+
+coef(model.lm)
+
+intercept <- coef(model.lm)[1]
+intercept
+
+slope <- coef(model.lm)[2]
+slope
+
+predictions <- predict(model.lm)
+predictions
+
+residuals <- resid(model.lm)
+residuals
+
+hist(resid(model.lm))
+plot(database$Magnitude, resid(model.lm))
