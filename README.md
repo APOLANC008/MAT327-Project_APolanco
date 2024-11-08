@@ -125,3 +125,11 @@ The 95% confidence interval for the mean earthquake depth is calculated as the f
 - **Upper-bound** = 40.68
 <p align = "justify">
 The 95% confidence interval for the 10% trimmed mean depth is [37.54, 40.68]. This interval is relatively narrow due to the large sample size (n = 23412), which indicates the precise estimate of the average earthquake depth after the outliers were remove. After removing the extreme values, the confidence interval provides a stable representation of the usual depth across the earthquake collected in the dataset. 
+
+## Linear Regression
+
+![alt text](Magnitude vs. Depth.png)
+
+![alt text](Histogram of Residuals.png)
+
+![alt text](Residuals of Magnitude.png)
