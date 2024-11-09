@@ -128,8 +128,8 @@ The 95% confidence interval for the 10% trimmed mean depth is [37.54, 40.68]. Th
 
 ## Linear Regression
 
-![alt text](Magnitude vs. Depth.png)
+![alt text](Magnitudevs.Depth.png)
 
-![alt text](Histogram of Residuals.png)
+![alt text](HistogramofResiduals.png)
 
-![alt text](Residuals of Magnitude.png)
+![alt text](ResidualsofMagnitude.png)
