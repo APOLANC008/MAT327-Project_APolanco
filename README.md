@@ -128,7 +128,19 @@ The 95% confidence interval for the 10% trimmed mean depth is [37.54, 40.68]. Th
 
 ## Linear Regression
 
+The linear regression model that predicts Magnitude based on Depth is:
+<p alignt = "center">
+Magnitude=5.877+0.00008091*Depth
+</p>
+Where: 
+- 5.877 is the intercept, which represents the predict Magnitude when the Depth is 0.
+- 0.00008091 is the coefficient for Depth, which indicates how much the Magnitude changes for each unit increase in Depth. <br> <br>
+
 ![alt text](Magnitudevs.Depth.png)
+
+The relationship between the Magnitude and Depth is very weak since the coefficient for Depth is very small. Therefore, we also calculated the R-squared value (R2) to get more information about the strength and significance of the relationship between these two variables. 
+
+The obtained R2 value 0.00055 implies that the Depth only explain a small portion of the variability in the Magnitude, which also suggests that the relationship between these two variables is weak. Then, we decided to examinate the predictions, and residuals of the relationship between the two variables by plotting the obtained values and comparing them to observed if there exists a pattern on it. 
 
 ![alt text](HistogramofResiduals.png)
 
