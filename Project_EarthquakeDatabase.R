@@ -90,6 +90,8 @@ intercept
 slope <- coef(model.lm)[2]
 slope
 
+summary(bike2.lm)$r.squared
+
 predictions <- predict(model.lm)
 predictions
 
