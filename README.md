@@ -144,4 +144,8 @@ The obtained R2 value 0.00055 implies that the Depth only explain a small portio
 
 ![alt text](HistogramofResiduals.png)
 
+The histogram above display the residuals from the analyze model, which indicates the differences between the observed and predicted values for the Magnitude based on the Depth. As can be observed, most of the residuals are close to zero. In addition, the right-skewed shape of the histogram suggests that the residuals are not normally distributed. 
+
 ![alt text](ResidualsofMagnitude.png)
+
+In addition, from the residual plot demonstrates a pattern where the residuals increase as the Magnitude increases, forming a linear pattern. This might suggest that the errors in the plot increase, meaning that model analysis tends to underestimate the larger magnitudes, and it didn’t make accurate predictions. 
