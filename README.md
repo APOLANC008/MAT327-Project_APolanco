@@ -156,11 +156,11 @@ The dataset being study contains the set of values such as the magnitude, depth,
 
 *Hypothesis 1:* The average magnitude of earthquakes differs from 5.0. The significance level is 0.05.
    * Null Hypothesis (H0): The mean earthquake magnitude is equal to 5.0.
-   * Alternative Hypothesis (H1): The mean earthquake magnitude is not equal to 5.0.
-             H_0: μ = 5.0
-             H_1: μ ≠ 5.0
+   * Alternative Hypothesis (H1): The mean earthquake magnitude is not equal to 5.0. 
+          <br>   H_0: μ = 5.0
+          <br>   H_1: μ ≠ 5.0
 	  * Mean magnitude: 5.88
-   * Standard Deviation: 0.42
+  	  * Standard Deviation: 0.42
 	  * Degree of freedom: 23411
 	  * Test statistic: 319.18
 	  * Critical value: 1.96
@@ -171,16 +171,16 @@ Based on the p-value obtained (0), compared to the significance value (0.05) we 
 *Hypothesis 2:* The dependence of Earthquake Magnitude on the Depth. Significance level is 0.05.
 
    * Null hypothesis (H0): There is no dependency between the earthquake magnitude and the earthquake depth. 
-	  * Alternative hypothesis (H1): There is a dependency between the earthquake magnitude and the earthquake depth. 
-           H_0: μ=70
-           H_1: μ≠70
-	  * Mean magnitude where (depth ≥ 70): 5.882991
-	  * Mean magnitude where (depth < 70): 5.880708
-   *	Standard Deviation where (depth ≥ 70): 0.42
-   *	Standard Deviation where (depth < 70): 0.43
-   *	Degree of freedom: 7247
-   *	Test statistic: 0.32994
-   *	Critical value: 1.96
-   *	P-value: 0.7415
+   * Alternative hypothesis (H1): There is a dependency between the earthquake magnitude and the earthquake depth. 
+       <br>    H_0: μ=70
+       <br>    H_1: μ≠70
+       * Mean magnitude where (depth ≥ 70): 5.882991
+       * Mean magnitude where (depth < 70): 5.880708
+       * Standard Deviation where (depth ≥ 70): 0.42
+       * Standard Deviation where (depth < 70): 0.43
+       * Degree of freedom: 7247
+       * Test statistic: 0.32994
+       * Critical value: 1.96
+       * P-value: 0.7415
 
 Based on the p-value obtained (0.7415), compared to the significance value (0.05) we can see that the p-value is greater than the significance value, then we fail to reject the null hypothesis. Therefore, there is no significant dependency between earthquake magnitude and depth.  
