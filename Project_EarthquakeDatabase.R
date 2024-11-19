@@ -100,3 +100,54 @@ residuals
 
 hist(resid(model.lm))
 plot(database$Magnitude, resid(model.lm))
+
+# Milestone 9
+
+#Hypothesis 1
+magnitudes <- na.omit(database$Magnitude)
+
+alpha <- 0.05
+alpha
+
+t1 <- t.test(magnitudes, mu = 5.0, alternative = "two.sided")
+
+df <- t1$parameter
+df
+
+Tstatistic <- t1$statistic
+Tstatistic
+
+Pvalue <- t1$p.value
+Pvalue
+
+Cvalue <- qt(1 - alpha/2, df)
+Cvalue
+
+#Hypothesis 2
+h0 <- na.omit(database$Magnitude[database$Depth <= 70])
+h0
+mean_h0 <- mean(h0)
+mean_h0
+
+h1 <- na.omit(database$Magnitude[database$Depth > 70])
+h1
+mean_h1 <- mean(h1)
+mean_h1
+
+alpha <- 0.05
+alpha
+
+t2 <- t.test(h0, h1, alternative = "two.sided", var.equal = FALSE)
+t2
+
+df <- t2$parameter
+df
+
+Tstatistic <- t2$statistic
+Tstatistic
+
+Pvalue <- t2$p.value
+Pvalue
+
+Cvalue <- qt(1 - alpha/2, df)
+Cvalue
