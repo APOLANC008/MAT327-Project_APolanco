@@ -184,3 +184,17 @@ Based on the p-value obtained (0), compared to the significance value (0.05) we 
        * P-value: 0.7415
 
 Based on the p-value obtained (0.7415), compared to the significance value (0.05) we can see that the p-value is greater than the significance value, then we fail to reject the null hypothesis. Therefore, there is no significant dependency between earthquake magnitude and depth.  
+
+*Hypothesis 3:* Earthquake magnitudes show a dependency on latitude.
+<p>
+     * Null hypothesis (H0): The latitude does not have any effect on earthquake magnitudes. <br>
+     * Alternative hypothesis (H1): The latitude does has an effect on earthquake magnitudes. <br>
+		H_0: p=0  <br>
+         	H_1: p≠0  <br>
+     	* Degree of freedom: 23411 <br>
+     	* Test statistic: 8.531431 <br>
+     	* Critical value: 1.96 <br>
+     	* P-value: 〖1.53e〗^(-17) <br>
+<br>	
+Since the test statistics (8.531431) is greater than the critical value (1.96) and the p-value is very small, we will reject the null hypothesis. Therefore, it can be conclude that there is a strong evidence suggesting a significant relationship between latitude and earthquake magnitudes.
+</p>
