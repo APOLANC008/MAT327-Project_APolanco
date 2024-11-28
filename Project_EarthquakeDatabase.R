@@ -151,3 +151,26 @@ Pvalue
 
 Cvalue <- qt(1 - alpha/2, df)
 Cvalue
+
+# Milestone 10
+
+#Hypothesis 3
+latitudes <- na.omit(database$Latitude)
+
+alpha <- 0.05
+alpha
+
+t1 <- t.test(latitudes, mu = 0, alternative = "two.sided")
+t1
+
+df <- t1$parameter
+df
+
+Tstatistic <- t1$statistic
+Tstatistic
+
+Pvalue <- t1$p.value
+Pvalue
+
+Cvalue <- qt(1 - alpha/2, df)
+Cvalue
